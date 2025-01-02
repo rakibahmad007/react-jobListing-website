@@ -11,7 +11,7 @@ const HomePage = () => {
       <HomeCards/>  
       {/* homecards stores the card components */}
 
-      <JobListings/>
+      <JobListings isHome={true}/>
 
       <ViewAllJobs/>
       </>
