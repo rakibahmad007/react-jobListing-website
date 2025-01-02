@@ -6,15 +6,15 @@ import ViewAllJobs from '../components/ViewAllJobs'
 
 const HomePage = () => {
   return (
-    <> 
-    <Hero />
-      <HomeCards/>  
+    <>
+      <Hero />
+      <HomeCards />
       {/* homecards stores the card components */}
 
-      <JobListings isHome={true}/>
+      <JobListings isHome={true} />
 
-      <ViewAllJobs/>
-      </>
+      <ViewAllJobs />
+    </>
   )
 }
 
